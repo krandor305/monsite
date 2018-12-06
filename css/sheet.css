@@ -35,6 +35,12 @@ nav
     border-radius: 20px 20px 0px 0px;
 }
 
+#parag
+{
+    color:#00264d;
+    font: "Garamond";
+}
+
 #titre1
 {
    background-color: #92a8d1;
@@ -50,6 +56,6 @@ nav
 
 h5
 {
-    color:#b3d9ff;
+    color:#4d4dff;
     font-size:30px;
 }
