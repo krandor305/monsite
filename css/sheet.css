@@ -15,6 +15,7 @@
 
 #experience:hover,#presentation:hover,#projet:hover,#passion:hover
 {
+   transition: 0.7s ease;
    opacity: 1;
 }
 
