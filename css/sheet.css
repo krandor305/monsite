@@ -3,18 +3,29 @@
 {
    font-size:26px;
    padding-bottom:50px;
+   opacity: 0.5;
 }
 
 #passion
 {
    font-size:26px;
    padding-bottom:50px;
+   opacity: 0.4;
 }
+
+#experience:hover,#presentation:hover,#projet:hover,#passion:hover
+{
+   opacity: 1;
+}
+
+
 
 body
 {
     background-size: cover;
     background-attachment: fixed;
+    transition: background 0.5s linear;
+    -webkit-transition: background 1.5s linear;
 }
 
 #titre
@@ -32,6 +43,7 @@ body
 
 nav
 {
+    position:relative;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -59,3 +71,4 @@ h5
     color:#4d4dff;
     font-size:30px;
 }
+
