@@ -1,24 +1,21 @@
 
-#experience,#presentation,#projet
+#bac,#licence,#master
 {
    font-size:26px;
    padding-bottom:50px;
    opacity: 0.5;
 }
 
-#passion
-{
-   font-size:26px;
-   padding-bottom:50px;
-   opacity: 0.4;
-}
 
-#experience:hover,#presentation:hover,#projet:hover,#passion:hover
+#bac:hover,#licence:hover,#master:hover
 {
    transition: 0.7s ease;
    opacity: 1;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 
 body

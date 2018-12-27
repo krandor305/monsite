@@ -1,6 +1,6 @@
 $(window).scroll(function() {
-   var hT = $('#passion').offset().top,
-       hH = $('#passion').outerHeight(),
+   var hT = $('#bac').offset().top,
+       hH = $('#licence').outerHeight(),
        wH = $(window).height(),
        wS = $(this).scrollTop();
    if (wS > (hT+hH-wH) && (hT > wS) && (wS+wH > hT+hH)){
